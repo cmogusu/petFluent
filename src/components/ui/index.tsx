@@ -1,6 +1,7 @@
 import { cssInterop } from 'nativewind';
 import Svg from 'react-native-svg';
 
+export * from './body-scroll-view';
 export * from './button';
 export * from './checkbox';
 export { default as colors } from './colors';

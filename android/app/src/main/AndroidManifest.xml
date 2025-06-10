@@ -26,7 +26,7 @@
         <category android:name="android.intent.category.BROWSABLE"/>
         <data android:scheme="petfluent"/>
         <data android:scheme="com.petfluent.development"/>
-        <data android:scheme="exp+obytesapp"/>
+        <data android:scheme="exp+petfluentapp"/>
       </intent-filter>
     </activity>
   </application>

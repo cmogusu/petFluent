@@ -38,9 +38,10 @@
     "test:ci": "pnpm run test --coverage",
     "test:watch": "pnpm run test --watch",
     "install-maestro": "curl -Ls 'https://get.maestro.mobile.dev' | bash",
-    "e2e-test": "maestro test .maestro/ -e APP_ID=com.obytes.development"
+    "e2e-test": "maestro test .maestro/ -e APP_ID=com.petfluent.development"
   },
   "dependencies": {
+    "@bacons/apple-colors": "^0.0.8",
     "@expo/metro-runtime": "^4.0.1",
     "@gorhom/bottom-sheet": "^5.0.5",
     "@hookform/resolvers": "^3.9.0",
@@ -49,6 +50,7 @@
     "app-icon-badge": "^0.1.2",
     "axios": "^1.7.5",
     "expo": "~52.0.46",
+    "expo-blur": "~14.0.3",
     "expo-constants": "~17.0.8",
     "expo-dev-client": "~5.0.20",
     "expo-font": "~13.0.4",
@@ -131,7 +133,7 @@
     "type": "git",
     "url": "git+https://github.com/cmogusu/petFluent.git"
   },
-  "packageManager": "pnpm@9.12.3",
+  "packageManager": "pnpm@10.12.1",
   "expo": {
     "doctor": {
       "reactNativeDirectoryCheck": {
